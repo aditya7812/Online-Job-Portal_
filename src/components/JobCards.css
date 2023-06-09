@@ -1,0 +1,131 @@
+@keyframes slideY {
+    0% {
+      opacity: 0;
+      transform: translateY(200px);
+    }
+  }
+
+.job-cards {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    animation: slideY 0.6s both;
+  }
+  @media screen and (max-width: 1212px) {
+    .job-cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media screen and (max-width: 930px) {
+    .job-cards {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  .job-card {
+    padding: 20px 16px;
+    background-color: var(--header-bg-color);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .job-card:hover {
+    transform: scale(1.02);
+  }
+  .job-card svg {
+    width: 46px;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  .job-card-title {
+    font-weight: 600;
+    margin-top: 16px;
+    font-size: 14px;
+  }
+  .job-card-subtitle {
+    color: var(--subtitle-color);
+    font-size: 13px;
+    margin-top: 14px;
+    line-height: 1.6em;
+    height: 85px;
+  }
+  .job-card-header {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .detail-button {
+    background-color: var(--active-light-color);
+    color: var(--active-color);
+    font-size: 11px;
+    font-weight: 500;
+    padding: 6px 8px;
+    border-radius: 4px;
+  }
+  .detail-button + .detail-button {
+    margin-left: 4px;
+  }
+  .job-card-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 4px;
+  }
+  .card-buttons,
+  .card-buttons-msg {
+    padding: 10px;
+    width: 100%;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .card-buttons {
+    margin-right: 12px;
+  }
+  .card-buttons-msg {
+    background-color: rgb(216, 212, 212);
+    color: rgb(21, 4, 121) ;
+  }
+
+  .card-buttons-msg:hover {
+    background-color: rgb(236, 222, 232);
+  }
+
+  .card-buttons-msg a {
+    text-decoration: none;
+    color: rgb(21, 46, 235);
+  }
+
+  .menu-dot {
+    background-color: var(--placeholder-color);
+    box-shadow: -6px 0 0 0 var(--placeholder-color),
+      6px 0 0 0 var(--placeholder-color);
+    width: 4px;
+    height: 4px;
+    border: 0;
+    padding: 0;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: 8px;
+  }
+
+.whiteColorClass {
+  padding: 5px 30px;
+  color: rgb(230, 235, 237);
+}
+
+.whiteColorClass2 {
+  color: rgb(254, 254, 254);
+  padding: 7px 150px;
+}
+
+.company-logo {
+  width:46px;
+  height: 46px;
+  
+}
+
+.searched-jobs02 {
+  margin: 0 100px;
+}

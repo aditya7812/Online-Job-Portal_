@@ -1,0 +1,60 @@
+.job-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 10px auto;
+    
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .job-form input[type="text"],
+  .job-form input[type="number"],
+  .job-form select,
+  .job-form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+  }
+  
+  .job-form label {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .job-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .job-form button:hover {
+    background-color: #3e8e41;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .job-form input[type="text"],
+    .job-form input[type="number"],
+    .job-form select,
+    .job-form textarea {
+      font-size: 15px;
+    }
+  
+    .job-form label {
+      font-size: 15px;
+    }
+  
+    .job-form button {
+      font-size: 15px;
+      padding: 8px 16px;
+    }
+  }
+  

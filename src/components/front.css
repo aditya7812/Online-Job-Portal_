@@ -1,0 +1,167 @@
+.mainfront {
+    width: 100%;
+    height: 100%;
+}
+
+.mainfront2 {
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0px auto;
+    background-color: rgb(240, 235, 241)
+}
+
+.leftmain {
+    align-self: center;
+    padding-left: 16px;
+}
+
+.maintitle {
+    color: rgb(23, 43, 77);
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 72px;
+    margin: 0px 0px 8px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 72px;
+}
+
+.buttonwrapperleft {
+    margin-right: 20px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.pleftmain {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgb(23, 43, 77);
+    margin-bottom: 8px;
+}
+
+p {
+    margin: 0px 0px 1.45rem;
+    padding: 0px
+}
+
+.buttonleft {
+    min-width: 250px;
+    width: auto;
+    max-width: 328px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 328px;
+    width: 100%;
+    height: 56px;
+    transition: all 0.3s ease-out 0s;
+    border-radius: 64px;
+    padding: 16px 28px;
+    cursor: pointer;
+    background: rgb(77, 57, 81);
+    color: rgb(255, 255, 255);
+    margin: 0px;
+}
+
+.pleftchild {
+    margin: 0px 0px 0px 8px;
+    padding: 0px;
+}
+
+.buttonwrapperright {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.prightmain {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgb(23, 43, 77);
+    margin-bottom: 8px
+}
+
+.buttonright {
+    min-width: 250px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 328px;
+    width: 100%;
+    height: 56px;
+    transition: all 0.3s ease-out 0s;
+    border-radius: 64px;
+    padding: 16px 28px;
+    cursor: pointer;
+    background: rgb(77, 57, 81);
+    color: rgb(255, 255, 255);
+    margin: 0px;
+}
+
+.prightchild {
+    margin-right: 8px;
+    margin-bottom: 0px;
+}
+
+.rightmain {
+    align-self: end;
+}
+
+@media only screen and (min-width: 1200px) {
+.rightmain {
+    height: 582px;
+    display: block;
+}
+}
+
+.spanright {
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    width: initial;
+    height: initial;
+    background: none;
+    opacity: 1;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    max-width: 100%;
+}
+
+.logohome {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 700;
+    color: rgb(107, 51, 220);
+    text-decoration: underline;
+}

@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    max-height: 400px;
+    margin:  50px auto;
+    
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.title {
+    max-width: 550px;
+    font-size: 38px;
+    text-align: center;
+}
+
+button {
+    font-weight: 600;
+    background-color: #1445e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.card-buttons:hover {
+    background-color: #6177d8;
+  }

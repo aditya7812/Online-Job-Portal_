@@ -1,0 +1,51 @@
+.searched-jobs {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-left: 40px;
+  }
+
+@keyframes slideY {
+    0% {
+      opacity: 0;
+      transform: translateY(200px);
+    }
+ }
+  .searched-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation: slideY 0.6s both;
+  }
+  .searched-show {
+    font-size: 19px;
+    font-weight: 600;
+  }
+  .searched-sort {
+    font-size: 14px;
+    color: var(--subtitle-color);
+  }
+  .searched-sort .post-time {
+    font-weight: 600;
+    color: var(--subtitle-color);
+  }
+  .searched-sort .menu-icon {
+    font-size: 9px;
+    color: var(--placeholder-color);
+    margin-left: 6px;
+  }
+  .type-container2 {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    background-color: transparent;
+    justify-content: space-between;
+
+    width: 100%;
+  }
+
+  .allJobsClass {
+    margin-top: 10px;
+    margin-left: 7px;
+    color: var(--subtitle-color);
+  }

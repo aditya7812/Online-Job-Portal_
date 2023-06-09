@@ -1,0 +1,174 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.main-container2 {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgb(130, 106, 251);
+}
+
+.main-container03 {
+  padding: 10px;
+}
+
+.container3 {
+    max-height: 90%;
+  position: relative;
+  max-width: 1100px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.align-neatly {
+  padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+
+.createprofile {
+  width: 50%;
+  margin: 0 250px;
+  padding: 20px 0;
+  font-size: 25px;
+}
+.no-design {
+  text-decoration: none;
+  color: rgb(248, 253, 251);
+  display: block;
+  width: 100%;
+  
+}
+
+.profileImg {
+  border-radius: 100%;
+  border: 2px solid #50597b;
+  overflow: hidden;
+  height: 150px;
+  width: 150px;
+  margin: auto;
+  margin-top: 100px;
+}
+.container3 header {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+}
+.container3 .form2 {
+  margin-top: 15px;
+}
+
+.form2 {
+    height: 100%;
+}
+.form2 .input-box {
+  width: 100%;
+  margin-top: 10px;
+}
+.input-box label {
+  color: #333;
+}
+.form2 :where(.input-box .userdata, .select-box) {
+  position: relative;
+  height: 30px;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  color: #c90e9a;
+  margin-top: 4px;
+  border-bottom: 1px solid #6de64f;
+  border-radius: 6px;
+  padding-top: 5px;
+}
+.input-box input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.form2 .column {
+  display: flex;
+  column-gap: 15px;
+}
+
+
+
+.gender input {
+  accent-color: rgb(130, 106, 251);
+}
+.form2 :where(.gender input, .gender label) {
+  cursor: pointer;
+}
+.gender label {
+  color: #707070;
+}
+.address :where(input, .select-box) {
+  margin-top: 15px;
+}
+.select-box select {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: #707070;
+  font-size: 1rem;
+}
+.form2 button {
+  height: 55px;
+  width: 100%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: rgb(130, 106, 251);
+}
+.form2 button:hover {
+  background: rgb(88, 56, 250);
+}
+/*Responsive*/
+@media screen and (max-width: 500px) {
+  .form2 .column {
+    flex-wrap: wrap;
+  }
+  .form2 :where(.gender-option, .gender) {
+    row-gap: 15px;
+  }
+}
+
+.filebox {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.input-box select {
+  width: 100%;
+  padding: 6px;
+  font-size: 16px;
+}
+
+.deleteJobBtn button {
+  height: 55px;
+  width: 100%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: rgb(130, 106, 251);
+}
